@@ -40,8 +40,9 @@ print("\nWrapped Text:\n")
 print(wrap(text, width))
 ```
 
-## Sample Output
-\![image](https://github.com/user-attachments/assets/94eb9eda-20f7-45bb-b953-2e2f9c7d4bd0)
+## Sample
+![image](https://github.com/user-attachments/assets/94e7ee06-a232-4d41-993c-32d943704c59)
+
 
 
 ## Result
