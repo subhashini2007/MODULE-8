@@ -26,30 +26,23 @@ To write a Python function that takes a long string and a specified width, and r
 
 
 ## 🧪 Program
-```
-def wrap(string, max_width):
-    wrapped_lines = []
-    for i in range(0, len(string), max_width):
-        wrapped_lines.append(string[i:i+max_width])
-    return '\n'.join(wrapped_lines)
+~~~c
+import textwrap
+def wrap_string(long_string, width):
+    wrapped_text = textwrap.fill(long_string, width)
+    return wrapped_text
+long_string = input("Enter a long string: ")
+width = int(input("Enter the desired width for wrapping: "))
 
-# Example usage
-text = input("Enter a long string: ")
-width = int(input("Enter max width: "))
-print("\nWrapped Text:\n")
-print(wrap(text, width))
-```
+wrapped_string = wrap_string(long_string, width)
 
-## Sample
-Thanks for waiting! Here's the generated image in the style of the second picture, with the data from the first one:
+print("\nWrapped String:")
+print(wrapped_string)
+~~~
 
-![Generated Image](attachment\:image-gen-output-1.png)
-
-Let me know if you'd like to modify the colors, text, or layout further!
-
-
-
+## Sample Output
+![Screenshot 2025-05-11 140839](https://github.com/user-attachments/assets/de47b27c-df7e-4e2d-928c-b35169b3e311)
 
 ## Result
-Program is verified successfully.
+Thus the program has been executed successfully.
 
