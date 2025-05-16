@@ -41,7 +41,12 @@ print(wrap(text, width))
 ```
 
 ## Sample
-![image](https://github.com/user-attachments/assets/94e7ee06-a232-4d41-993c-32d943704c59)
+Thanks for waiting! Here's the generated image in the style of the second picture, with the data from the first one:
+
+![Generated Image](attachment\:image-gen-output-1.png)
+
+Let me know if you'd like to modify the colors, text, or layout further!
+
 
 
 
